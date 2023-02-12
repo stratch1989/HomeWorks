@@ -14,7 +14,6 @@ class Human:
 class Student(Human):
     def __init__(self, name):
         super().__init__(name)
-        
     #  метод ask_question() принимает параметр someone:
     #  это объект, экземпляр класса Curator, Mentor или CodeReviewer,
     #  которому Student задаёт вопрос; 
